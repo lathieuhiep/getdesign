@@ -16,7 +16,7 @@ if ( ! function_exists( 'getdesign_fonts_url' ) ) :
 			$getdesign_font_families = array();
 
 			if ( 'off' !== $getdesign_font_google ) {
-				$getdesign_font_families[] = 'Roboto:400,700';
+				$getdesign_font_families[] = 'Roboto:400,500,700,900';
 			}
 
 			$getdesign_query_args = array(

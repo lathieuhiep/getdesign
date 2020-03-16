@@ -117,6 +117,10 @@ if ( class_exists('Woocommerce') ) :
 
 endif;
 
+/* Require Post Type */
+require get_parent_theme_file_path( '/extension/post-type/course.php' );
+require get_parent_theme_file_path( '/extension/post-type/student-product.php' );
+
 /**
  * Required: Register Sidebar
  */

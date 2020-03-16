@@ -50,6 +50,7 @@ final class getdesign_plugin_elementor_widgets {
 
         $build_widgets_filename = [
             'slides',
+	        'text-list',
             'post-grid',
             'post-carousel',
             'about-text',
